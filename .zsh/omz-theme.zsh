@@ -1,5 +1,6 @@
 ZSH_THEME=
-fpath+=($HOME/.zsh/pure)
+
+fpath+=($HOME/.zsh/themes/pure)
 
 autoload -U promptinit; promptinit
 
