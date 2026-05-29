@@ -1,13 +1,13 @@
 # Config dir paths
-export ZSH="$HOME/.zsh"
-export OMZ="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
+export ZSH_DIR="$HOME/.zsh"
 
 # OMZ config
-. "$ZSH/omz-theme.zsh"
-. "$ZSH/omz-plugins.zsh"
+. "$ZSH_DIR/omz-theme.zsh"
+. "$ZSH_DIR/omz-plugins.zsh"
 
 # OMZ sourcing
-. "$OMZ/oh-my-zsh.sh"
+. "$ZSH/oh-my-zsh.sh"
 
 # Other config
-. "$ZSH/alias.zsh"
+. "$ZSH_DIR/alias.zsh"
